@@ -159,6 +159,7 @@
         value2submit: function(value) {
 
             var clearFlag = 0;
+            var date = '';
 
             if(!value.year && !value.month && !value.day) {
 
@@ -166,11 +167,12 @@
 
             } else {
 
-                value.date = value.year +'-'+ value.month +'-'+ value.day;
+                date = value.year +'-'+ value.month +'-'+ value.day;
 
             }
 
             value.clear = clearFlag;
+            value.date = date;
             return value;
 
         },
