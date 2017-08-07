@@ -159,15 +159,20 @@
         value2submit: function(value) {
 
             var clearFlag = 0;
+            var date = '';
 
             if(!value.year && !value.month && !value.day) {
 
                 clearFlag = 1;
 
+            } else {
+
+                date = value.year +'-'+ value.month +'-'+ value.day;
+
             }
 
             value.clear = clearFlag;
-            value.date = value.year +'-'+ value.month +'-'+ value.day;
+            value.date = date;
             return value;
 
         },
