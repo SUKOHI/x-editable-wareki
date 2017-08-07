@@ -1,0 +1,20 @@
+{
+  "name": "x-editable-wareki",
+  "main": "x-editable-wareki.js",
+  "authors": [
+    "Sukohi Kuhoh <capilano.sukohi@gmail.com>"
+  ],
+  "description": "A plugin for x-editable that manages wareki(和暦) date.",
+  "keywords": [
+    "和暦"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
