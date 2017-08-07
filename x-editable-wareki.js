@@ -167,6 +167,7 @@
             }
 
             value.clear = clearFlag;
+            value.date = value.year +'-'+ value.month +'-'+ value.day;
             return value;
 
         },
